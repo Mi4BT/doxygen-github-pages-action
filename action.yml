@@ -33,6 +33,10 @@ runs:
       with:
         submodules: "true"
 
+    - name: Update System
+      run: sudo apt-get Update
+      shell: bash
+
     - name: Install Doxygen
       run: sudo apt-get install doxygen graphviz -y
       shell: bash
