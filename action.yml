@@ -34,7 +34,7 @@ runs:
         submodules: "true"
 
     - name: Update System
-      run: sudo apt-get Update
+      run: sudo apt-get update
       shell: bash
 
     - name: Install Doxygen
